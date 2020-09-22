@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  position: relative;
+  height: 200vh;
+  background: radial-gradient(37.36% 73.88% at 43.61% 50%, #ffffff 0%, #c5c5c5 98.79%);
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: none;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-list li {
+  padding: 40px;
+  margin-top: 10px;
+  list-style: none;
+}
+
+.nav-list li a {
+  font-family: "Rajdhani", sans-serif;
+  font-family: Rajdhani;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  text-decoration: none;
+  /* line-height: 60px; */
+  color: #000000;
+}
+
+.logo-img {
+  width: 261px;
+  height: 122px;
+  margin-left: 20px;
+  left: 98px;
+  top: 12px;
+  cursor: pointer;
+}
+
+.watch {
+  /* smart-watch */
+  cursor: pointer;
+  position: absolute;
+  width: 553px;
+  height: 572px;
+  left: 761px;
+  top: 41px;
+  background: url("./img/smart-watch-orange.png");
+  -webkit-animation: spin 6s linear infinite;
+          animation: spin 6s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.bg {
+  position: absolute;
+  width: 443px;
+  height: 462px;
+  left: 923px;
+  top: 0px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f8814e), to(#ff879d));
+  background: linear-gradient(180deg, #f8814e 0%, #ff879d 100%);
+  border-radius: 100px 0px;
+}
+
+.landing-text {
+  position: absolute;
+  width: 503px;
+  height: 74px;
+  left: 102px;
+  top: 219px;
+  font-family: Rajdhani;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 74px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.landing-lorem {
+  position: absolute;
+  width: 437px;
+  height: 302px;
+  left: 122px;
+  top: 306px;
+  font-family: Rajdhani;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ff4d00;
+}
+
+.buy-now {
+  position: absolute;
+  width: 214px;
+  height: 82px;
+  left: 162px;
+  top: 40%;
+  font-family: Rajdhani;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 66px;
+  cursor: pointer;
+  color: #ffffff;
+  background: url("./img/btn.svg");
+}
+
+.scroll-logo {
+  cursor: pointer;
+  position: absolute;
+  width: 32px;
+  height: 46px;
+  left: 704px;
+  top: 572px;
+  background: url("./img/Vector-1.png");
+}
+
+.fb {
+  /* Facebook */
+  position: absolute;
+  width: 12px;
+  height: 24px;
+  left: 1050px;
+  top: 591px;
+  cursor: pointer;
+  background: url("./img/Facebook.png");
+}
+
+.insta {
+  cursor: pointer;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 1178px;
+  top: 591px;
+  background: url("./img/Vector.png");
+}
+
+.tweet {
+  cursor: pointer;
+  position: absolute;
+  width: 24px;
+  height: 20px;
+  left: 1299px;
+  top: 591px;
+  background: url("./img/Twitter.png");
+}
+/*# sourceMappingURL=style.css.map */
